@@ -2,4 +2,18 @@
 members = [
     "ns-core",
     "ns-algorithm",
+    "ns-log",
+    "ns-bin",
 ]
+resolver = "2"
+
+[profile.dev]
+debug = true
+split-debuginfo = "packed"
+
+[profile.release]
+opt-level = "z"
+# debug 为 true 才有 symbol
+debug = true
+codegen-units = 1
+split-debuginfo = "packed"

@@ -3,6 +3,7 @@ mod communication;
 mod computing;
 mod location_distribution;
 mod user_equipment;
+mod utils;
 
 #[cfg(test)]
 mod tests {
