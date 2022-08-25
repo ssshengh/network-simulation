@@ -4,6 +4,7 @@ members = [
     "ns-algorithm",
     "ns-log",
     "ns-bin",
+    "ns-schedule"
 ]
 resolver = "2"
 

@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ns-bin/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ns-log/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ns-schedule/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
