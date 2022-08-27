@@ -294,7 +294,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ns-thread-schedule"
+name = "ns-schedule"
 version = "0.1.0"
 dependencies = [
  "anyhow",

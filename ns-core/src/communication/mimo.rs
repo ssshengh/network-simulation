@@ -28,11 +28,9 @@ pub fn channel_gain_los(
     // 1 * m
     let sv_t = steering_vector_conj(theta_t, num_antenna_t);
     let sv_t = sv_t.into_shape((1, num_antenna_t)).unwrap();
-    println!("{}", sv_t);
     // n * 1
     let sv_r = steering_vector(theta_r, num_antenna_r);
     let sv_r = sv_r.into_shape((num_antenna_r, 1)).unwrap();
-    println!("{}", sv_r);
     let sv = sv_r.dot(&sv_t);
 
     alpha * sv
